@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
     "build": "tsc -p .",
-    "start":"npm run build && node dist/index.js"
+    "start":"npm run build && node public/index.js"
   },
   "keywords": [],
   "author": "",
